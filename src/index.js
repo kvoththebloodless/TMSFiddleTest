@@ -24,7 +24,7 @@ function init() {
   // model
   const loader = new THREE.GLTFLoader();
   loader.load(
-    "https://drive.google.com/a/g.rit.edu/file/d/17DViKALHEoh4yFE1PkwzW7SkXyeZJcxj/view?usp=sharing",
+    "./Skeleton_Final.glb",
     function(gltf) {
       const model = gltf.scene;
       /*  gltf.scene.traverse(child => {
